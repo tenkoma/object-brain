@@ -1,0 +1,12 @@
+@startuml
+actor 社長
+activate 社長
+activate 社員
+社長 -> 社員: ①：起立する()
+社長 <- 社員: ②：表示する()：表示メッセージ
+deactivate 社員
+社長 -> 表示画面: ③：表示する()：表示メッセージ
+activate 表示画面
+deactivate 表示画面
+deactivate 社長
+@enduml
