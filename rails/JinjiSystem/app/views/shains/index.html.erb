@@ -19,6 +19,7 @@
         <td><%= shain.yakushoku %></td>
         <td><%= shain.kihonkyu %></td>
         <td><%= link_to 'Show', shain.becomes(Shain) %></td>
+        <td><%= link_to 'Standup', standup_shain_path(shain) %></td>
         <td><%= link_to 'Edit', edit_shain_path(shain) %></td>
         <td><%= link_to 'Destroy', shain.becomes(Shain), method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
