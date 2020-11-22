@@ -2,6 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     diff-lcs (1.4.4)
+    power_assert (1.1.7)
     rake (13.0.1)
     rspec (3.9.0)
       rspec-core (~> 3.9.0)
@@ -16,6 +17,8 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.9.0)
     rspec-support (3.9.4)
+    test-unit (3.3.7)
+      power_assert
 
 PLATFORMS
   ruby
@@ -23,6 +26,7 @@ PLATFORMS
 DEPENDENCIES
   rake
   rspec
+  test-unit
 
 BUNDLED WITH
    2.1.4
